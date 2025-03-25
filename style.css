@@ -1,0 +1,109 @@
+/* Font */
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight:200;
+}
+
+/* body */
+body{
+    margin:0px;
+}
+
+/* Advertise Bar */
+
+#advertise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:15px;
+}
+
+#advertise h3{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#bluebox{
+    display: inline-block;
+    border: 3px solid skyblue;
+    color:deepskyblue;
+    padding: 5px;
+}
+
+#bluebox:hover{
+    background-color: rgb(211, 227, 233);
+    cursor: pointer;
+    color:white;
+}
+
+#bluebox a{
+    margin-left: 14px;
+}
+
+
+/* nav bar */
+nav{
+    background-color: black;
+    color: white;
+    overflow: auto;
+    margin: 0px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar,#navselect,.navele{
+    display: inline-block;
+    margin: 0px;
+}
+
+#site{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navele{
+    margin:15px;
+}
+
+.navbar{
+    margin:5px;
+    padding: 0px 10px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: skyblue;
+}
+
+/* main content */
+#main{
+    height: 515px;
+    background-image: url(Images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+
+#box h1{
+    font-size: 60px;
+    opacity: 1;
+}
